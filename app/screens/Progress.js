@@ -7,7 +7,7 @@ import {
 
 export default class Screen1 extends Component {
   static navigationOptions = {
-    title: 'Screen4',
+    title: 'Progress',
   }
   
   render() {
@@ -19,13 +19,7 @@ export default class Screen1 extends Component {
           alignItems: 'center',
           justifyContent: 'center',
         }}
-      >
-        <Text>Screen 4</Text>
-        <Button
-          title='Go to Next Screen'
-          onPress={() => navigate('Screen1')}
-        />
-      </View>
+      />
     );
   }
 }
