@@ -20,5 +20,5 @@ export const Root = StackNavigator({
   Login: { screen: Login },
   Main: { screen: mainNavigator}
 }, {
-  headerMode: 'none'
+  headerMode: 'none',
 });

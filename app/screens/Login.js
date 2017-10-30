@@ -13,6 +13,7 @@ var windowWidth = Dimensions.get('window').width;
 var windowHeight = Dimensions.get('window').height;
 
 export default class Login extends Component {
+
   static navigationOptions = {
     title: 'Login',
     header: null,
@@ -59,7 +60,7 @@ export default class Login extends Component {
           onPress={() => {
             if(username==='' && password==='')
             {
-              navigate('Topics')
+              navigate('Topics', {fontLoaded: this.props.screenProps.fontLoaded})
             }
           }
           }

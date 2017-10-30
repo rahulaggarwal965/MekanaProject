@@ -20,13 +20,13 @@ export default class TopNavBar extends Component {
                     height: 80,
                     backgroundColor: '#ffffff',
                     borderBottomWidth: 0.5,
-                    borderBottomColor: '#eeeeee'
+                    borderBottomColor: '#aaaaaa'
                 }}
             > 
-                <Image
+                {/* <Image
                 style={{width: 40/scaleFactor , height: 40, marginLeft: 5, marginTop: 25}} 
                 source={require('../resources/MekanaLogo.png')} 
-                />
+                /> */}
             </View>
         );
     }
